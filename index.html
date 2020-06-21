@@ -46,16 +46,19 @@ a {
     right: 0px;
     padding-right: 20px;
 }
+
 #logo {
 display: block;
-margin: 175px auto 25px;
+margin: 120px auto 25px;
 align-self: center;
 }
 #searchbar{
 display: block;
-margin: 5px auto;
-min-width: 350px;
-
+margin: 2.5px auto;
+margin-bottom: 20px;
+min-width: 570px;
+min-height: 40px;
+border-radius: 25px;
 }
 #buttons{
 display: flex;
@@ -63,17 +66,12 @@ justify-content: center;
 /*position: absolute;*/
 font-size: 14px;
 margin: auto;
-
 }
 #submit, #lucky{
 background-color: rgb(240, 240, 240);
 margin: 6px;
 padding: 10px 15px;
 border-radius: 4px;
-
-}
-#lucky{
-
 }
 
 #navfooter{
@@ -115,14 +113,12 @@ margin-right: 25px;
 </nav>
 </header>
 <main>
-
+<div class = splash>
 <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt = "Google logo" id = "logo">
 <input type="text" id = "searchbar">
 <div id="buttons">
     <a href="#googlesearch" id="submit">Google Search</a>
-    <a href="#feelinglucky" id="lucky">I'm Feeling Lucky</a>
-<!--<button type="submit" id="submit">Google Search</button>
-<button type="submit" id="lucky">I'm Feeling Lucky</button>--></div>
+    <a href="#feelinglucky" id="lucky">I'm Feeling Lucky</a></div></div>
 </main>
 <footer>
     <nav id = "navfooter">

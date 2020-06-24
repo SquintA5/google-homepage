@@ -11,6 +11,9 @@ a {
     text-decoration: none;
     color: rgb(99, 98, 98);
 }
+a:hover{
+text-decoration: underline;
+}
 #navlink1, #navlink2 {
     color: rgba(0, 0, 0, 0.719);
     margin-left: 9px;
@@ -23,7 +26,7 @@ a {
 }
 #navlink5{
     color: white;
-    background-color: rgb(95, 124, 253);
+    background-color: rgb(74, 121, 248);
     font-weight: bold;
     padding: 7px 13px;
     border-radius: 1.5px;
@@ -56,22 +59,29 @@ align-self: center;
 display: block;
 margin: 2.5px auto;
 margin-bottom: 20px;
-min-width: 570px;
-min-height: 40px;
+min-width: 580px;
+min-height: 45px;
 border-radius: 25px;
+padding-left: 40px;
+border: 1px solid lightgray;
 }
 #buttons{
 display: flex;
 justify-content: center;
-/*position: absolute;*/
 font-size: 14px;
 margin: auto;
 }
+
 #submit, #lucky{
 background-color: rgb(240, 240, 240);
 margin: 6px;
 padding: 10px 15px;
 border-radius: 4px;
+}
+#submit:hover, #lucky:hover{
+    border: 1px solid lightgray;
+    background-color: rgb(245, 245, 245);
+
 }
 
 #navfooter{
@@ -115,7 +125,7 @@ margin-right: 25px;
 <main>
 <div class = splash>
 <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt = "Google logo" id = "logo">
-<input type="text" id = "searchbar">
+<input type="search" id = "searchbar">
 <div id="buttons">
     <a href="#googlesearch" id="submit">Google Search</a>
     <a href="#feelinglucky" id="lucky">I'm Feeling Lucky</a></div></div>
